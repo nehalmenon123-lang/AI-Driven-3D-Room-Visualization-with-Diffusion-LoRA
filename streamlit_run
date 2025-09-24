@@ -1,0 +1,60 @@
+- Visit `http://localhost:8501`.
+- Input, generate, customize, export—seamless!
+
+For 3D export: Download HTML and open in browser for interactive view.
+
+## 🔍 System Architecture
+As detailed in the poster:
+1. **Input Acquisition**: NLP for text, OpenCV for sketches, CNN for mood boards.
+2. **Diffusion Generation**: Pretrained model synthesizes initial 3D layout via denoising.
+3. **LoRA Customization**: User-driven mods (e.g., furniture repositioning) with low params.
+4. **Iterative Refinement**: Feedback loop for progressive enhancements.
+5. **Rendering & Export**: Photorealistic outputs with Three.js integration.
+
+![Workflow Model](docs/workflow_model.png)  # Add from PPTX
+
+## 📊 Results & Evaluation
+- **Quantitative**:
+  | Metric                  | Score/Value       |
+  |-------------------------|-------------------|
+  | Design Quality Rating   | 9.2/10            |
+  | Customization Accuracy  | 96%               |
+  | Generation Time         | ~10 seconds       |
+  | Refinement Time         | <5 seconds        |
+
+- **Qualitative**: Users loved the intuitive flow and realism. See `figures/performance_metrics.png` for plots.
+
+- **Comparisons**: Outperforms static AR/VR tools (e.g., from literature) in speed and flexibility.
+
+## 🔬 Research Foundation
+**Literature Review** (Top 10 from DOCX):
+| S.No | Reference | Focus | Key Contribution |
+|------|-----------|-------|------------------|
+| 1    | Patel & Mandekar (2024) | AR in Interior Design | Enhances client engagement via real-time viz. |
+| 2    | Dunston et al. (2011) | VR Mock-Ups | Improves collaboration in design reviews. |
+| ...  | (Full in docs/project_report.docx) | ... | ... |
+
+**Research Gaps Addressed**: Multimodal inputs, real-time processing, LoRA for fine-tuning—filling voids in static tools.
+
+**Objectives Achieved**: As per PPTX—developed tool, multimodal support, real-time refinement, high-quality outputs.
+
+## 🌱 Future Scope
+- VR/AR Integration: Immerse in generated rooms.
+- Voice/Gesture Inputs: Hands-free design.
+- Collaborative Mode: Real-time multi-user editing.
+- Edge AI: Mobile app for on-the-go visualization.
+- Bias Audits: Ensure diverse, inclusive designs.
+
+## 👥 Contributors & Acknowledgments
+- **Team**: Mukund Niranjan S (21BDS0001), Sarveshwara Ram M (21BCB0161), Nehal Menon (21BCE3645)
+- **Supervisor**: Dr. Anand Prabhu A
+- Thanks to VIT SCOPE for resources and guidance.
+
+## 📜 License & Citations
+MIT Licensed. Cite our work: "AI-Driven Diffusion and LoRA Models..." (2025, VIT Capstone).
+
+For bugs/PRs: Open an issue. Star ⭐ this repo and let's design the future together!
+
+<p align="center">
+  <em>Built with ❤️ at VIT – Where Innovation Meets Imagination</em>
+</p>
