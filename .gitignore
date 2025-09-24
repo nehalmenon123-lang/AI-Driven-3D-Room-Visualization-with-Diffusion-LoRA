@@ -1,0 +1,6 @@
+__pycache__/
+venv/
+*.h5
+models/*
+data/room_dataset/*
+!data/sample_inputs/*
