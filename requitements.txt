@@ -1,0 +1,12 @@
+torch>=2.0.0
+diffusers>=0.20.0
+transformers>=4.30.0
+accelerate>=0.20.0
+opencv-python>=4.8.0
+pillow>=10.0.0
+streamlit>=1.25.0
+numpy>=1.24.0
+scipy>=1.10.0
+matplotlib>=3.7.0
+seaborn>=0.12.0
+three.js  # For 3D export (via CDN in HTML)
